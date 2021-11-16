@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<title>GUI CALCULATOR</title>
+	<script src="script.js">
+	</script>
+</head>
+
+<body>
+	<center>
+		<form id="frmMain">
+			<h1 id="dispResult"></h1>
+			<table align="center" border="10">
+				<tr>
+					<td><input type="button" id="btnclr" value="C" onclick="clr()"/></td> 
+            <td><input type="button" id="btnclr" value="Del" onclick="back()"/></td>
+         </tr> 
+         <tr> 
+            <td><input type="button" id="btn1" value="1" onclick="btn(1)"/> </td> 
+            <td><input type="button" id="btn2" value="2" onclick="btn(2)"/> </td> 
+            <td><input type="button" id="btn3" value="3" onclick="btn(3)"/> </td> 
+            <td><input type="button" id="btnD" value="/" onclick="btn('/')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" id="btn4" value="4" onclick="btn(4)"/> </td> 
+            <td><input type="button" id="btn5" value="5" onclick="btn(5)"/> </td> 
+            <td><input type="button" id="btn6" value="6" onclick="btn(6)"/> </td> 
+            <td><input type="button" id="btnS" value="-" onclick="btn('-')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" id="btn7" value="7" onclick="btn(7)"/> </td> 
+            <td><input type="button" id="btn8" value="8" onclick="btn(8)"/> </td> 
+            <td><input type="button" id="btn9" value="9" onclick="btn(9)"/> </td> 
+            <td><input type="button" id="btnA" value="+" onclick="btn('+')"/> </td> 
+         </tr> 
+         <tr> 
+            <td><input type="button" id="btndeci" value="." onclick="btn('.')"/> </td> 
+            <td><input type="button" id="btn0" value="0" onclick="btn(0)"/> </td> 
+            <td><input type="button" id="btnE" value="=" onclick="solve()"/> </td> 
+            <td><input type="button" id="btnM" value="*" onclick="btn('*')"/> </td> 
+         </tr> 
+      </table> 
+      </form>
+      </center>
+   </body> 
+</html>
